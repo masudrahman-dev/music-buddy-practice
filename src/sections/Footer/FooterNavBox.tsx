@@ -1,6 +1,6 @@
 const FooterNavBox = ({ pages, link_1, link_2, link_3 }) => {
   return (
-    <div className="text-start">
+    <div className="text-center lg:text-start">
       <h2 className="text-2xl font-semibold ">{pages}</h2>
       <div className="inline-flex gap-2">
         <div className="w-5 h-1 bg-black border  rounded-full"></div>

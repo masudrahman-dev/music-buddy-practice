@@ -5,7 +5,7 @@ import facebookIcon from "../../assets/images/icons/facebook.svg";
 import youtubeIcon from "../../assets/images/icons/youtube.svg";
 import headerImg from "../../assets/images/img/header-img.png";
 import "./Header.css";
-// bg-gradient-to-t from-indigo-500 from-50% via-slate-500 via-50%
+
 const Header = () => {
   const textStroke = {
     WebkitTextStrokeWidth: "1px",
@@ -13,73 +13,76 @@ const Header = () => {
   };
 
   return (
-    <div className="  border">
-        <div className=" w-full px-12 mt-3  z-40 ">
-          <div className="flex justify-between  ">
-            <div className="justify-self-start">
-              <div className=" flex items-center gap-3 ">
-                <div>
-                  <img src={logoIcon} alt="" />
-                </div>
-                <span
-                  className="text-4xl font-black text-transparent"
-                  style={textStroke}
-                >
-                  MUSIC BUDDY
-                </span>
-              </div>
-            </div>
-            <div className=" flex flex-col items-center  ">
-              <div>
-                <img src={menuIcon} alt="" />
+    <div className="  border bg_header ">
+      <div className="  px-12 mt-3  z-40 ">
+        <div className="flex  justify-between  ">
+          <div className="justify-self-start">
+            <div className=" flex items-center gap-1 lg:gap-3 ">
+              <div className="lg:w-[48.7] w-[20px]">
+                <img className="w-full" src={logoIcon} alt="" />
               </div>
               <span
-                className="text-4xl font-black text-transparent mt-2 "
-                style={{
-                  writingMode: "vertical-rl",
-                  transform: "rotate(180deg)",
-                  WebkitTextStrokeWidth: "1px",
-                  WebkitTextStrokeColor: "black",
-                }}
+                className="lg:text-4xl font-black text-transparent"
+                style={textStroke}
               >
-                MENU
+                MUSIC BUDDY
               </span>
             </div>
           </div>
+          <div className=" flex flex-col items-center  ">
+            <div className="w-5">
+              <img className="w-full" src={menuIcon} alt="" />
+            </div>
+            <span
+              className="lg:text-4xl font-black text-transparent mt-2 "
+              style={{
+                writingMode: "vertical-rl",
+                transform: "rotate(180deg)",
+                WebkitTextStrokeWidth: "1px",
+                WebkitTextStrokeColor: "black",
+              }}
+            >
+              MENU
+            </span>
+          </div>
         </div>
-      <div className=" w-full test relative ">
-
+      </div>
+      <div className=" w-full relative ">
         {/* topbar */}
-        <div className="mx-[150px] -mt-[100px]  tracking-widest  pb-5">
-          <img className="w-full" src={headerImg} alt="" />
-
-          <p className="text-6xl font-bold">OUR</p>
-          <h1
-            className="text-9xl  font-black text-transparent"
-            style={textStroke}
-          >
-            BLOG
-          </h1>
+        <div className="lg:mx-[150px] lg:-mt-[80px] -mt-[50px]   pb-3 lg:pb-5">
+          <div className=" max-w-[1605.68px] mx-auto">
+            <img className="w-full" src={headerImg} alt="" />
+            <div className="tracking-widest">
+              <p className="lg:text-6xl text-2xl font-bold">OUR</p>
+              <h1
+                className="lg:text-[180px] text-4xl  font-black text-transparent"
+                style={textStroke}
+              >
+                BLOG
+              </h1>
+            </div>
+          </div>
         </div>
+
         {/* social */}
 
-        <div className="absolute top-3/4 z-10 left-10 -translate-x-1/2 -translate-y-1/2">
+        <div className=" hidden lg:block absolute top-3/4 z-10 left-10 -translate-x-1/2 -translate-y-1/2">
           <div className="flex items-center">
             <div className="flex flex-col justify-center items-center gap-3 ">
-              <div>
-                <img src={twitterIcon} alt="" />
+              <div className="lg:w-[20px] ">
+                <img className="w-full" src={twitterIcon} alt="" />
               </div>
-              <div>
-                <img src={youtubeIcon} alt="" />
+              <div className="w-[20px] ">
+                <img className="w-full" src={youtubeIcon} alt="" />
               </div>
-              <div>
-                <img src={facebookIcon} alt="" />
+              <div className="w-[13px] ">
+                <img className="w-full" src={facebookIcon} alt="" />
               </div>
               <div className="flex justify-center items-center">
-                <div className="w-1 h-12 bg-black border"></div>
+                <div className="w-1 lg:h-12 h-7 bg-black border"></div>
               </div>
               <p
-                className="text-sm font-medium"
+                className="lg:text-sm text-[10px] font-medium"
                 style={{
                   writingMode: "vertical-rl",
                   transform: "rotate(180deg)",

@@ -12,11 +12,11 @@ const FooterHeader = () => {
   };
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="w-[138px]">
+      <div className="lg:w-[138px] ">
         <img className="w-full" src={logoIcon} alt="" />
       </div>
       <h1
-        className="text-[100px] font-black  text-transparent -mt-6 -mb-3"
+        className="lg:text-[100px] text-5xl font-black  text-transparent lg:-mt-1  mt-3 mb-3"
         style={textStroke}
       >
         MUSIC BUDDY

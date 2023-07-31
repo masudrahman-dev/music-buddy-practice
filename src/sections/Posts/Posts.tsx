@@ -13,9 +13,9 @@ import Carausel from "../Carousel/Carausel";
 
 const Posts = () => {
   return (
-    <>
-      <div className="flex justify-center my-10"></div>
-      <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-7 justify-center items-center max-w-[1605.68px] mx-auto mt-[75px]">
+    <div className="pl-3 pr-5 ">
+  
+      <div className="grid grid-cols-2 md:grid-cols-2  lg:grid-cols-3 gap-7 justify-center items-center max-w-[1605.68px] mx-auto mt-[75px]">
         <Card url={img1} />
         <Card url={img2} />
         <Card url={img3} />
@@ -27,7 +27,7 @@ const Posts = () => {
         <Card url={img9} />
       </div>
       <Carausel/>
-    </>
+    </div>
   );
 };
 

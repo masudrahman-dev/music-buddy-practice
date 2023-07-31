@@ -3,10 +3,10 @@ import preIcon from "../../assets/images/icons/previous_arrow.svg";
 import nextIcon from "../../assets/images/icons/next_arrow.svg";
 
 const Carausel: React.FC = () => {
-  const ball = " bg-black rounded-full border";
+  const ball = " bg-black rounded-full border ";
 
   return (
-    <div className="flex justify-between items-center my-20 mx-[305px]">
+    <div className="flex justify-between items-center  my-20  lg:w-3/5 w-4/5 mx-auto">
       <div className="w-[42px]  opacity-50 inline-flex items-center justify-center gap-2">
         <img className="w-full" src={preIcon} alt="" />
         <span>Previous</span>
@@ -21,9 +21,10 @@ const Carausel: React.FC = () => {
         <div className={`w-[11px] h-[11px] opacity-70 ${ball}`}></div>
         <div className={`w-[9px] h-[9px] opacity-40 ${ball}`}></div>
       </div>
-      <div className="w-[42px]  opacity-50 inline-flex items-center justify-center gap-2">
-        <img className="w-full" src={nextIcon} alt="" />
+      <div className="w-[42px]   opacity-50 flex items-center justify-center gap-2">
+        
         <span>Next</span>
+        <img className="w-full " src={nextIcon} alt="" />
       </div>
     </div>
   );
