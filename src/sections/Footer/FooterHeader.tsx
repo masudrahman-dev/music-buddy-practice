@@ -12,30 +12,30 @@ const FooterHeader = () => {
   };
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="lg:w-[138px] ">
+      <div className="lg:w-[138px] w-[30px] ">
         <img className="w-full" src={logoIcon} alt="" />
       </div>
       <h1
-        className="lg:text-[100px] text-5xl font-black  text-transparent lg:-mt-1  mt-3 mb-3"
+        className="lg:text-[100px] text-3xl font-black  text-transparent lg:-mt-1  mt-3 mb-3"
         style={textStroke}
       >
         MUSIC BUDDY
       </h1>
-      <div className="flex items-center gap-8">
-        <div>
-          <img src={facebookIcon} alt="" />
+      <div className="flex items-center md:gap-8 gap-5">
+        <div className="lg:w-[22.01px] w-[9.01px]">
+          <img className="w-full" src={facebookIcon} alt="" />
         </div>
-        <div>
-          <img src={instragramIcon} alt="" />
+        <div className="lg:w-[22.01px] w-[13.01px]">
+          <img className="w-full" src={instragramIcon} alt="" />
         </div>
-        <div>
-          <img src={twitterIcon} alt="" />
+        <div className="lg:w-[22.01px] w-[13.01px]">
+          <img className="w-full" src={twitterIcon} alt="" />
         </div>
-        <div>
+        <div className="lg:w-[22.01px] w-[13.01px]">
           <img src={tiktokIcon} alt="" />
         </div>
-        <div>
-          <img src={youtubeIcon} alt="" />
+        <div className="lg:w-[22.01px] w-[13.01px]">
+          <img className="w-full" src={youtubeIcon} alt="" />
         </div>
       </div>
     </div>

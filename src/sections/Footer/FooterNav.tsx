@@ -16,8 +16,8 @@ const FooterNav = () => {
         link_2={"+00 000 000"}
         link_3={"info@company.com"}
       />
-      <div className="text-start">
-        <h2 className="text-2xl font-semibold ">ADDRESS</h2>
+      <div className="md:text-start text-center">
+        <h2 className="md:text-2xl font-semibold text-base">ADDRESS</h2>
         <div className="inline-flex gap-2">
           <div className="w-5 h-1 bg-black border  rounded-full"></div>
           <div className="w-3 h-1 bg-black border  rounded-full"></div>

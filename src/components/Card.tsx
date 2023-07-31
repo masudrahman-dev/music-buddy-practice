@@ -14,13 +14,13 @@ const Card: React.FC<CardProps> = ({ url }) => {
   return (
     <div className="flex justify-center gap-3  border-gray-500">
       <div style={textDesign}>
-        <h1 className="lg:text-[43px] font-bold">HEADPHONE</h1>
-        <p className="lg:text-[25px] font-semibold">Best Budget Headset...</p>
+        <h1 className="md:text-[43px] text-base font-bold">HEADPHONE</h1>
+        <p className="md:text-[25px] text-[12px] font-semibold">Best Budget Headset...</p>
       </div>
       <div className="flex">
         <img
           className=" "
-          style={{ boxShadow: "#000000ab 1px 5px 15px 8px" }}
+          style={{ boxShadow: "rgba(0, 0, 0, 0.67) 3px 5px 20px 1px" }}
           src={url}
           alt=""
         />

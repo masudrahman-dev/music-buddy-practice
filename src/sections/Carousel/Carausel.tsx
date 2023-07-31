@@ -7,7 +7,7 @@ const Carausel: React.FC = () => {
 
   return (
     <div className="flex justify-between items-center  my-20  lg:w-3/5 w-4/5 mx-auto">
-      <div className="w-[42px]  opacity-50 inline-flex items-center justify-center gap-2">
+      <div className="md:w-[42px] w-9  opacity-50 inline-flex items-center justify-center gap-2">
         <img className="w-full" src={preIcon} alt="" />
         <span>Previous</span>
       </div>
@@ -21,9 +21,8 @@ const Carausel: React.FC = () => {
         <div className={`w-[11px] h-[11px] opacity-70 ${ball}`}></div>
         <div className={`w-[9px] h-[9px] opacity-40 ${ball}`}></div>
       </div>
-      <div className="w-[42px]   opacity-50 flex items-center justify-center gap-2">
-        
-        <span>Next</span>
+      <div className="md:w-[42px] w-9  opacity-50 flex items-center justify-center gap-2">
+        <span className="text-shadow-lg">Next</span>
         <img className="w-full " src={nextIcon} alt="" />
       </div>
     </div>
