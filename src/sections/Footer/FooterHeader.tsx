@@ -15,14 +15,15 @@ const FooterHeader = () => {
       <div className="lg:w-[138px] w-[30px] ">
         <img className="w-full" src={logoIcon} alt="" />
       </div>
+      {/* lg:-mt-1  mt-3 mb-3 */}
       <h1
-        className="lg:text-[100px] text-3xl font-black  text-transparent lg:-mt-1  mt-3 mb-3"
+        className="lg:text-[100px] text-3xl font-black  text-transparent my-10"
         style={textStroke}
       >
         MUSIC BUDDY
       </h1>
-      <div className="flex items-center md:gap-8 gap-5">
-        <div className="lg:w-[22.01px] w-[9.01px]">
+      <div className="flex items-center md:gap-8 gap-[30px] ">
+        <div className="lg:w-[13.01px] w-[9.01px]">
           <img className="w-full" src={facebookIcon} alt="" />
         </div>
         <div className="lg:w-[22.01px] w-[13.01px]">

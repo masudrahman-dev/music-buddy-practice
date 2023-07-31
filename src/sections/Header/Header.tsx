@@ -13,7 +13,7 @@ const Header = () => {
         <HeaderImg />
         {/* social */}
 
-        <div className=" hidden lg:block absolute top-3/4 z-10 left-10 -translate-x-1/2 -translate-y-1/2">
+        <div className=" hidden lg:block absolute top-3/4 z-10 left-[38px] -translate-x-1/2 -translate-y-1/2">
           <SocialShared />
         </div>
         {/* end */}
