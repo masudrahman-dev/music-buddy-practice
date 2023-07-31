@@ -9,6 +9,7 @@ import img8 from "../../assets/images/img/img-8.png";
 import img9 from "../../assets/images/img/img-9.png";
 
 import Card from "../../components/Card";
+import Carausel from "../Carousel/Carausel";
 
 const Posts = () => {
   return (
@@ -25,6 +26,7 @@ const Posts = () => {
         <Card url={img8} />
         <Card url={img9} />
       </div>
+      <Carausel/>
     </>
   );
 };

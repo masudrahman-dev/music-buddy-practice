@@ -4,7 +4,7 @@ import Posts from "./sections/Posts/Posts";
 
 const App = () => {
     return (
-        <div>
+        <div className="max-w-[1920px] mx-auto">
           <Header/>
           <Posts/>
           <Footer/>
