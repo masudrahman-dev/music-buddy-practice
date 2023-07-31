@@ -13,19 +13,17 @@ import Card from "../../components/Card";
 const Posts = () => {
   return (
     <>
-      <div className="flex justify-center my-10">
-      </div>
-      <div className="grid grid-cols-3 gap-7 justify-center items-center max-w-[1605.68px] mx-auto mt-[75px]">
+      <div className="flex justify-center my-10"></div>
+      <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-7 justify-center items-center max-w-[1605.68px] mx-auto mt-[75px]">
         <Card url={img1} />
-      <Card url={img2} />
-      <Card url={img3} />
-      <Card url={img4} />
-      <Card url={img5} />
-      <Card url={img6} />
-      <Card url={img7} />
-      <Card url={img8} />
-      <Card url={img9} />
-
+        <Card url={img2} />
+        <Card url={img3} />
+        <Card url={img4} />
+        <Card url={img5} />
+        <Card url={img6} />
+        <Card url={img7} />
+        <Card url={img8} />
+        <Card url={img9} />
       </div>
     </>
   );
