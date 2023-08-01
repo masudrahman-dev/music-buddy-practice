@@ -13,7 +13,7 @@ import Carausel from "../Carousel/Carausel";
 
 const Posts = () => {
   return (
-    <div className="pl-3 pr-5 mt-[75px] ">
+    <div className="md:pl-5 pl-3 md:pr-7 pr-5 mt-[75px] ">
   
       <div className="grid grid-cols-2 md:grid-cols-2  lg:grid-cols-3 md:gap-[40px] gap-[20px] justify-center items-center max-w-[1605.68px] mx-auto mt-[75px]">
         <Card url={img1} />
