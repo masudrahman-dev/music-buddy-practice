@@ -17,7 +17,7 @@ const FooterHeader = () => {
       </div>
       {/* lg:-mt-1  mt-3 mb-3 */}
       <h1
-        className="lg:text-[100px] text-3xl font-black  text-transparent my-10"
+        className="lg:text-[100px] text-3xl font-black  text-transparent md:my-10 my-4"
         style={textStroke}
       >
         MUSIC BUDDY

@@ -1,6 +1,6 @@
-import "./Header.css";
+
 import SocialShared from "./SocialShared";
-import HeaderImg from "./HeaderImg";
+import HeaderImg from "./HeaderHero";
 import HeaderMenu from "./HeaderMenu";
 
 const Header = () => {
