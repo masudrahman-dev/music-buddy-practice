@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 
 interface CardProps {
   url: string;
 }
 
 const Card: React.FC<CardProps> = ({ url }) => {
-  const [lineEffect, setLineEffect] = useState();
+
 
   const textDesign: React.CSSProperties = {
     writingMode: "vertical-rl",
