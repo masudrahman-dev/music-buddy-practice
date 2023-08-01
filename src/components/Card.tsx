@@ -12,7 +12,7 @@ const Card: React.FC<CardProps> = ({ url }) => {
 
 
   return (
-    <div className="flex justify-center gap-3  border-gray-500">
+    <div className="flex justify-center gap-3  border-gray-500 hover:scale-105 transition-all delay-75">
       <div style={textDesign}>
         <h1 className="md:text-[43px] text-base font-bold">HEADPHONE</h1>
         <p className="md:text-[25px] text-[12px] font-semibold">Best Budget Headset...</p>
